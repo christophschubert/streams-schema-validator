@@ -24,10 +24,6 @@ kafka-avro-console-producer --bootstrap-server localhost:9092 --property schema.
 
 ```
 
-## To clarify
-- which SubjectNameStrategy should be used?
-- exactly once semantics needed? Need to be careful with transaction timeout vs. SR response time.
-
 
 ## ToDo
 - [ ] chaos testing: what happens when SR is not available?
